@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  /* text-align: center; */
+}
+.datos h1 {
+  font-size: 25px; 
+} 
+.datos h3 {
+  padding: 20px;;
+  font-size: 55px; 
+} 
+.datos h4 {  
+  font-size: 55px; 
+} 
+
+.datos{ 
+  padding: 60px 40px 40px 40px; 
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0; 
+}
+
+
+.datos .columna{
+  padding: 15px;
+  border: 5px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: normal;  
+  justify-content: space-evenly; 
+  transition: all 0.2s ease-in;
+  border-radius: 20px;
+}
+
+.datos .columna:hover{
+  color: white;
+  background-color: #1b1b32;
+
+}
+
+.datos .btn {
+  background-color: #ffffff;
+  font-weight: bold;
+  /* color: #000000; */
+  border: 2px solid #000000;
+  padding: 0.5em 2.5em;
+  cursor: pointer;
+  margin: 15px;
+  border-radius: 10px;
+  font-size: 17px;
+} 
+
+.datos .btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.panelpost{ 
+  padding: 20px 40px 0px 40px; 
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px; 
+}
+
+.panelpost h1 {
+  font-size: 25px; 
+} 
+.panelpost h3 {
+  padding: 5px;;
+  font-size: 40px; 
+  text-align:  center;
+} 
+
+.panelpost .columna{
+  padding: 15px;
+  border: 5px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: normal;  
+  justify-content: space-evenly; 
+  transition: all 0.2s ease-in;
+}
+
+.panelpost .columna1{
+  padding: 15px;
+  /* border: 5px solid #8080804d; */
+  display: flex;
+  flex-direction: column;
+  align-items: normal;  
+  justify-content: space-evenly; 
+  transition: all 0.2s ease-in;
+  border-radius: 10px;
+}
+
+.panelpost .btn {
+  background-color: #ffffff;
+  font-weight: bold; 
+  border: 2px solid #000000;
+  padding: 0.5em 2.5em;
+  cursor: pointer;
+  margin: 15px;
+  border-radius: 10px;
+  font-size: 18px;
+} 
+
+.panelpost .columna1:hover{
+  color: white;
+  background-color: #1b1b32;
+
+}
+
+.panelpost .columna:hover{
+  color: white;
+  background-color: #6b5681;
+
+}
+
+.panelpost .btn:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
